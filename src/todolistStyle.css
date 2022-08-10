@@ -1,0 +1,238 @@
+
+p{
+ text-align: center;
+ 
+}
+
+p span{
+    margin-right: 0px;
+  }
+.Display{
+    margin-left: -400px;
+    padding: 0px; 
+}
+body {
+  margin: 0;
+  min-width: 250px;
+  background: url(./ocean1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+/* Include the padding and border in an element's total width and height */
+* {
+  box-sizing: border-box;
+}
+
+/* Remove margins and padding from the list */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the list items */
+ul li {
+  cursor: pointer;
+  position: relative;
+  /* padding: 12px 8px 12px 40px; */
+  list-style-type: none;
+  background: rgb(192, 21, 21);
+  font-size: 18px;
+  transition: 0.2s;
+  height: 50px;
+
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+  background: #eccc14;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+  background: rgb(87, 177, 132);
+}
+
+
+/* Style the close button */
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Style the header */
+.header {
+  /* background-color: #f44336; */
+  padding: 30px 40px;
+  color: rgb(8, 7, 7);
+  text-align: center;
+
+}
+
+/* Clear floats after the header */
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the input */
+input {
+  margin: 0;
+  border: none;
+  border-radius: 30px;
+  width: 80%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+.split {
+  margin: 25px;
+  height: 60%;
+  width: 70%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  width:22.5%;
+  height: 100%;
+  /* background-color: #111; */
+  /* width: 388px;
+height: 925px;
+left: 39px;
+top: 65px; */
+text-align: left;
+background: rgba(255, 255, 255, 0.95);
+border-radius:0 0 0 30px;
+}
+.right {
+  right: 0;
+    width:75%;
+    height: 100%;
+  /* background-color: red; */
+background: rgba(217,217,217,0.5);
+/* opacity: 0.75; */
+border-radius: 0 0 30 0px;
+}
+
+.Ico{
+  position: relative;
+  margin-right: 40px;
+  float: right;
+  
+}
+.addButton{
+  position: absolute;
+  width:150px;
+  height: 45px;
+  border-radius: 20px;
+  color:rgb(233, 223, 219);
+  background-color: black;
+  font-style:italic bold;
+  left: 1200px;
+
+}
+.formlam{
+
+  position:relative;
+  top:80%;
+  color:rgb(245, 235, 235);
+  left: 15px;
+
+
+}
+.left2{
+  position: relative;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  left:-20%;
+  top: 150px;
+
+  color: #000000;
+}
+.imagePlan2{
+  position: relative;
+  width: 10px;
+  height:10px;
+  left:-50%;
+top: 325px;
+}
+.userImage{
+  position: relative;
+  width: 10px;
+  height:10px;
+  left:-50%;
+  top:0px;
+}
+.imageDay{
+  position: relative;
+  width: 30px;
+  height:50px;
+  left:-50%;
+  top:0px;
+}
+.container{
+  position: relative;
+  left:-40%;
+  top:0px;
+}
+.imageImpo{
+
+  position: relative;
+  width: 30px;
+  height:50px;
+  left:-40%;
+  top:0px;
+}
+.imagePlan{
+  position: relative;
+  width: 30px;
+  height:50px;
+  left:-30%;
+  top:0px;
+}
+.imageAll{
+  position: relative;
+  width: 30px;
+  height:50px;
+  left:-50%;
+  top:0px;
+}
+.imageCom{
+  position: relative;
+  width: 30px;
+  height:50px;
+  left:-50%;
+  top:0px;
+
+}
+.imageAss{
+
+  position: relative;
+  width: 30px;
+  height:50px;
+  left:-30%;
+  top:0px;
+}
+.linki{
+  position: relative;
+  left: 180px;
+}
